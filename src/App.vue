@@ -1,14 +1,19 @@
 <template>
-  <h1 class="text-[40px]">Hello Vue</h1>
+  <IndexPage/>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import IndexPage from './components/Index.vue'
 
 export default {
   name: 'App',
   components: {
-    
+    IndexPage
   }
 }
 </script>
+<style>
+  body {
+    background-color: #E7E7E7;
+  }
+</style>
